@@ -53,5 +53,5 @@ jobs:
           echo "📋 Contenedores activos:"
           docker ps
 
-          echo "📝 Logs recientes del contenedor product_app_2025:"
+          echo "📝 Logs recientes del contenedor ExamenMaycol:"
           docker logs --tail=50 product_app_2025 || echo "⚠ No se pudo obtener logs"
